@@ -1,0 +1,38 @@
+{
+	"version": "0.0.0",
+	"id": "pokemon5e",
+	"title": "Pokémon 5e",
+	"description": "Todo lo necesario (bestiario de pokémon, objetos, movimientos, tipos, habilidades, clases, etc.) para jugar a Pokémon 5e.",
+	"scripts": [
+		"scripts/testing.js"
+	],
+	"compatibility": {
+		"minimum": "13",
+		"verified": "13.341"
+	},
+	"relationships": {
+		"systems": [{
+			"id": "dnd5e",
+			"type": "system",
+			"manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json",
+			"compatibility": {
+				"verified": "5.0.4"
+			}
+		}]
+	},
+	"authors": [
+		{
+			"name": "Moge",
+			"discord": "moge_kov"
+		},
+		{
+			"name": "Estratega583",
+			"discord": "estratega583"
+		},
+		{
+			"name": "Missing Glitch",
+			"discord": "missing.glitch"
+		}
+	],
+	"url": "https://github.com/v-Miguel-v/pokemon5e-foundry-module"
+}
